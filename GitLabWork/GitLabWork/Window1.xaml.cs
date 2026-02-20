@@ -23,5 +23,15 @@ namespace GitLabWork
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello Git!");
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            MessageBox.Show("ППМПМПМПА");
+        }
     }
 }
